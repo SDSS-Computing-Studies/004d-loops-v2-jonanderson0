@@ -21,7 +21,7 @@ example:
 Enter a name: Lebron
 That name is on the list
 """
-name = input("Enter a name: ").strip())
+name = input("Enter a name: ").strip()
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 value=name in nameList
 for name in nameList:
