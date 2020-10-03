@@ -25,8 +25,8 @@ name = input("Enter a name: ").strip()
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
-for a in nameList:
-  if name ==a:
+for i in nameList:
+  if name == i:
     print("That name is in the list")
     
 if name not in nameList:
