@@ -26,4 +26,4 @@ number = int(input("Enter a number: "))
 star = str("*")
 
 for i in range(number):
-  pritn(star*number)
+  print(star*number)
